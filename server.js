@@ -24,7 +24,7 @@ app.use("/api/v1/users", require("./routes/userRoute"));
 app.use('/api/v1/transections',require('./routes/transectionRoute'))
 
 //port
-const PORT = 3120 || process.env.PORT;
+const PORT = process.env.PORT || 3120;
 
 //listen server
 app.listen(PORT, () => {
