@@ -17,7 +17,7 @@ const getAllTransection = async (req, res) => {
             },
           }),
       userid: req.body.userid,
-      ...(type !== "all" && { type }),
+      ...(type !== "all" && { type  }),
     });
     res.status(200).json(transections);
   } catch (error) {
