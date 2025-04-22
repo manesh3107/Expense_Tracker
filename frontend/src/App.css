@@ -1,0 +1,24 @@
+/* Login.css */
+/* .ff {
+    background-image: url("https://media.istockphoto.com/id/182400303/photo/calculator-and-spreadsheet.jpg?s=1024x1024&w=is&k=20&c=qyX1gYqoyFxxru7gCb34aGG2te7VVWoE87fu3F8LnYM=");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+  
+.ff{
+  height: 700px;
+  width: 600px;
+}
+
+.btnn{
+  align-items: center;
+  margin: 15px 10px 15px 10px;
+  justify-content: center;
+}
+
+.hh{
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
